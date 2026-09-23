@@ -120,7 +120,8 @@ DeFi MCP modules interact with DeFi protocols by abstracting their interfaces in
 
 Market Data MCP modules retrieve real-time market data from on-chain and off-chain sources via unified query interfaces.
 
-- [47620/solana-data-mcp](https://github.com/fito311/solana-data-mcp) - Pay-per-call onchain data for AI agents over x402 (USDC on Solana or Base; no signup, no API key): Solana network health, token price/liquidity, wallet balances, transaction lookup and trending DEX pairs, plus an MCP server trust/security check (0-100 score). Remote Streamable HTTP at `https://47620.xyz/mcp`; official MCP Registry `xyz.47620/solana-data`.
+- [47620/solana-data-mcp](https://github.com/fito311/solana-data-mcp) - Pay-per-call onchain data for AI agents over x402 (USDC on Solana, Base or Polygon; no signup, no API key): Solana network health, token price/liquidity, wallet balances, transaction lookup and trending DEX pairs, plus an MCP server trust/security check (0-100 score). Remote Streamable HTTP at `https://47620.xyz/mcp`; official MCP Registry `xyz.47620/solana-data`.
+- [47620/evm-data-mcp](https://github.com/fito311/evm-data-mcp) - Pay-per-call onchain data for Base and Polygon, for AI agents over x402 (USDC on Solana, Base or Polygon; no signup, no API key): network health, block lookup, balances, stablecoins, token price/liquidity, transactions, contracts, gas and trending pairs (18 tools). Remote Streamable HTTP at `https://47620.xyz/mcp/evm`; official MCP Registry `xyz.47620/evm-data`.
 
 - [Nayshins/mcp-server-ccxt](https://github.com/Nayshins/mcp-server-ccxt) - An Model Context Protocol (MCP) server that provides real-time and historical cryptocurrency market data through integration with major exchanges.
 - [truss44/mcp-crypto-price](https://github.com/truss44/mcp-crypto-price) - A Model Context Protocol (MCP) server that provides comprehensive cryptocurrency analysis using the CoinCap API.
